@@ -1,0 +1,79 @@
+#wrap {}
+#wrap header {}
+#wrap header .lnb {}
+#wrap header .lnb a {}
+#wrap main {}
+/* -----------------------------------------공통------------------------------------- */
+#wrap main .contents1 {
+    font-size: 1.25rem;
+}
+#wrap main .contents2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+#wrap main .arrows {}
+#wrap main .sub_title {}
+/* <!-- ---------------------------------1행 메인--------------------------------- --> */
+#wrap main .bg1_container {
+    background-image:url(../images/bg.jpg);
+    background-size:100%;
+    height: 623px;
+    background-repeat:no-repeat;
+    color:#fff;
+}
+#wrap main .bg1_container .lnb {
+    font-size: 1.25rem; font-weight:600;
+    float: right;
+    padding: 25px 41px;
+}
+#wrap main .bg1_container .lnb a {
+    color:#fff;
+    margin: 0 20px;
+}
+#wrap main .bg1_container p {
+}
+#wrap main .bg1_container h1 {
+    font-size: 2.13rem;
+    font-weight: 700;
+}
+/* <!-- ---------------------------------2행 소개--------------------------------- --> */
+#wrap main .bg2_container {}
+#wrap main .bg2_container > p {}
+#wrap main .bg2_container img {}
+/* <!-- -------------------------------3행 예약객실-------------------------------- --> */
+#wrap main .bg3_container {}
+#wrap main .bg3_container .left {}
+#wrap main .bg3_container .left .bold_contents {}
+#wrap main .bg3_container .left p:nth-child(2) {}
+#wrap main .bg3_container .right {}
+#wrap main .bg3_container .right a {}
+#wrap main .bg3_container .room_img {}
+#wrap main .bg3_container .room_img a {}
+#wrap main .bg3_container .room_img a:nth-child(1) {}
+#wrap main .bg3_container .room_img a:nth-child(2) {}
+#wrap main .bg3_container .room_img a:nth-child(3) {}
+#wrap main .bg3_container .room_img a:nth-child(4) {}
+#wrap main .bg3_container .room_img a:nth-child(5) {}
+/* <!-- ----------------------------- 4행 주변 관광지------------------------------ --> */
+#wrap main .bg4_container {}
+#wrap main .bg4_container h2 {}
+#wrap main .bg4_container .top_img {}
+#wrap main .bg4_container .top_img img {}
+#wrap main .bg4_container .bottom_img {}
+#wrap main .bg4_container .bottom_img img {}
+#wrap main .bg4_container .bottom_img img:nth-child(1) {}
+#wrap main .bg4_container .bottom_img img:nth-child(2) {}
+#wrap main .bg4_container .bottom_img img:nth-child(3) {}
+#wrap main .bg4_container .bottom_img img:nth-child(4) {}
+#wrap main .bg4_container .bottom_img img:nth-child(5) {}
+/* <!-- ---------------------------- --5행 찾아오시는 길----------------------------- --> */
+#wrap main .bg5_container {}
+#wrap main .bg5_container h2 {}
+#wrap main .bg5_container img {}
+#wrap main .bg5_container .bottom {}
+#wrap main .bg5_container .bottom .reservation {}
+#wrap main .bg5_container .bottom .bus {}
+#wrap main .bg5_container .bottom .subway {}
+#wrap main .bg5_container .bottom .bold {}
+#wrap main .bg5_container .bottom *p {}
+
